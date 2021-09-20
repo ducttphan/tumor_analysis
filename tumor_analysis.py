@@ -297,7 +297,7 @@ def PlotData() :
 
 modeOptions = ['Read Me', 'Extract Data', 'Analyze Data', 'Plot Data']
 
-st.image(image='/Users/ducphan/Desktop/Streamlit/Linear_Logo.tif')
+st.image(image='Linear_Logo.tif')
 st.write('  ')
 st.title('TUMOR GROWTH ANALYSIS')
 st.write("This app will extract tumor area measurements from CellProfiler .csv files and perform tumor growth analysis.  ")
